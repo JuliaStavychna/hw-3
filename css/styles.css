@@ -81,7 +81,6 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -343,6 +342,10 @@ p {
   line-height: 1.5;
   color: var(--cloud-color);
 }
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 /* Portfolio */
 
 /* Filter Buttons */
@@ -391,9 +394,11 @@ p {
   column-gap: 24px;
   row-gap: 48px;
 }
+
 .projects-item {
   width: calc((100% - 48px) / 3);
 }
+
 .card-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
