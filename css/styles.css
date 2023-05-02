@@ -38,14 +38,15 @@ p {
   margin: 0;
   padding: 0;
 }
+/* Conteiners */
 
-.container {
-  display: flex;
+.main-nav {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  align-items: center;
 }
 .portfolio {
   margin-left: auto;
@@ -92,7 +93,6 @@ p {
   align-items: center;
   text-transform: uppercase;
   text-decoration: none;
-  margin-bottom: 16px;
 }
 .webstudio.logo.box {
    margin-right: 76px;
@@ -358,8 +358,9 @@ p {
   font-size: 16px;
   line-height: 1.5;
   color: var(--cloud-color);
+  width: 264px;
 }
-.footer-logo {
+.webstudio-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
