@@ -76,7 +76,7 @@ p {
 .adress-nav .item:not(:last-child) {
   margin-right: 40px;
 }
-.logo {
+.logo-link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -87,6 +87,8 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
+  display: inline-block; 
+  margin-bottom: 16px;
 }
 
 .studio {
@@ -139,6 +141,7 @@ p {
 .adress-nav {
   display: flex;
   font-style: normal;
+  gap: 40px
 }
 
 .adress-nav .address {
@@ -216,7 +219,7 @@ p {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.features-list > ul {
+.features-list {
   list-style-type: none;
   display: flex;
   gap: 24px;
@@ -241,7 +244,7 @@ p {
 .examples {
   padding-bottom: 120px;
 }
-.examples-list > ul {
+.examples-list {
   list-style-type: none;
   display: flex;
   gap: 24px;
@@ -264,7 +267,7 @@ p {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.team-list > ul {
+.team-list {
   list-style-type: none;
   display: flex;
   gap: 24px;
@@ -278,7 +281,6 @@ p {
   text-transform: capitalize;
   color: var(--basic-color);
   margin-bottom: 72px;
-  margin-bottom: 8px;
 }
 .teammate {
   background-color: var(--white-color);
