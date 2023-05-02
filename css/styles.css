@@ -58,6 +58,7 @@ img {
 .website-nav {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .website-nav .link {
   display: block;
@@ -108,6 +109,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--basic-color);
+  gap: 40px;
 }
 .list .link:hover,
 .list .link:focus {
@@ -196,6 +198,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   min-width: 169px
+  height: 56px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -228,6 +231,9 @@ img {
   color: var(--text-color);
 }
 /* Examples */
+.examples {
+  padding-bottom: 120px;
+}
 .examples > ul {
   list-style-type: none;
   display: flex;
@@ -312,6 +318,10 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--cloud-color);
+}
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 /* Portfolio */
 
