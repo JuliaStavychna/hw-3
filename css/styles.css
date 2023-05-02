@@ -32,6 +32,7 @@ p {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
 }
 .section {
   padding-top: 120px;
@@ -46,24 +47,22 @@ img {
   display: block;
 }
 /* Header */
-border-bottom: 1px solid var(--accent-color);
+.header {
+  border-bottom: 1px solid var(--accent-color);
+}
 /* Navigation */
 .header-nav {
   display: flex;
   align-items: center;
 }
-.site-nav {
+.website-nav {
   display: flex;
   align-items: center;
 }
-.site-nav .link {
+.website-nav .link {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.site-nav .item:not(:last-child) {
-  margin-right: 40px;
 }
 
 .adress-nav .link {
