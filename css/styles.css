@@ -317,6 +317,10 @@ p {
   line-height: 1.5;
   color: var(--cloud-color);
 }
+.container > .logo-link {
+  display: inline-block;
+  margin:  0 0 16px 0;
+}
 /* Portfolio */
 
 /* Filter Buttons */
