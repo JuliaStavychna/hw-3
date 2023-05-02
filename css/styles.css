@@ -39,7 +39,14 @@ p {
   padding: 0;
 }
 /* Conteiners */
-
+.conteiner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+}
 .main-nav {
   margin-left: auto;
   margin-right: auto;
