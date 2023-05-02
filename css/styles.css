@@ -35,7 +35,6 @@ ul {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  display: flex;
 }
 .section {
   padding-top: 120px;
@@ -372,6 +371,7 @@ ul {
   padding: 12px 24px;
 }
 .filter-list {
+  display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
