@@ -197,7 +197,7 @@ img {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
-  min-width: 169px
+  min-width: 169px;
   height: 56px;
 }
 .hero-button:hover,
