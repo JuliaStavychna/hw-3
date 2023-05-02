@@ -88,7 +88,7 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
-  display: inline-block; 
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -142,7 +142,7 @@ p {
 .adress-nav {
   display: flex;
   font-style: normal;
-  gap: 40px
+  gap: 40px;
 }
 
 .adress-nav .address {
@@ -162,7 +162,7 @@ p {
   margin-left: auto;
 }
 .adress-nav > ul {
-  gap: 40px
+  gap: 40px;
 }
 
 /* Hero */
@@ -315,6 +315,20 @@ p {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.logo-link-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--additional-color);
+  letter-spacing: 0.03em;
+  align-items: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .studio-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -384,7 +398,6 @@ p {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-
 }
 
 .project-title {
@@ -393,7 +406,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--basic-color);
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 .project-description {
   font-weight: 400;
