@@ -7,7 +7,14 @@
   --button-color: #404bbf;
   --accent-color: #e7e9fc;
 }
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -42,9 +49,6 @@ p {
 .no-top-padding {
   padding-top: 0;
   padding-bottom: 120px;
-}
-img {
-  display: block;
 }
 /* Header */
 .header {
@@ -321,10 +325,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--cloud-color);
-}
-.footer-link {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 /* Portfolio */
 
