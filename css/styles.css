@@ -327,6 +327,10 @@ img {
 /* Portfolio */
 
 /* Filter Buttons */
+.filters {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .filters > ul {
   list-style-type: none;
   padding-top: 96px;
@@ -371,6 +375,11 @@ img {
 .project-card {
   width: calc((100% - 48px) / 3);
 }
+.card-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+
+}
 
 .project-title {
   font-weight: 500;
@@ -378,6 +387,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--basic-color);
+  margin-bottom: 8px
 }
 .project-description {
   font-weight: 400;
